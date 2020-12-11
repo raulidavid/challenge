@@ -8,19 +8,22 @@ class UserController extends Controller
 {
     private $data = array(
         [
-        "id" => 1,
-        "name" => "Raul",
-        "lastname" => "Flores",
+            "id" => 1,
+            "name" => "Raul",
+            "lastname" => "Flores",
+            "email" => "raulidavid@hotmail.com"
         ],
         [
             "id" => 2,
             "name" => "Camilo",
             "lastname" => "Sexto",
+            "email" => "camilo@ppm.ec"
         ],
         [
             "id" => 3,
             "name" => "Lionel",
             "lastname" => "Messi",
+            "email" => "messi10@barca.ec"
         ],
    );
 
