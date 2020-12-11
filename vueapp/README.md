@@ -2,7 +2,7 @@
 
 ## Instalación ##
 Instrucciones:  
-1.- Situarse en la raíz de esta carpeta VUEAPP  
+1.- Situarse en la raíz de esta carpeta vueapp  
 2.- Ejecutar comando npm install  
 3.- Ejecutar comando npm run serve  
 
