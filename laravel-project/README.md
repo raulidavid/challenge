@@ -12,6 +12,14 @@ Instrucciones:
 3.- Ejecutar comando php artisan serve  
 
 ```
+$ git clone https://github.com/raulidavid/challenge.git
+```
+
+```
+$ cd challenge/laravel-project
+```
+
+```
 $ composer install
 ```
 

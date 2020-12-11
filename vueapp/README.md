@@ -7,6 +7,14 @@ Instrucciones:
 3.- Ejecutar comando npm run serve  
 
 ```
+$ git clone https://github.com/raulidavid/challenge.git
+```
+
+```
+$ cd challenge/vueapp
+```
+
+```
 $ npm install
 ```
 
