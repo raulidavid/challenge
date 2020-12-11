@@ -14,5 +14,9 @@ $ npm install
 $ npm run serve
 ```
 
+```
+$ Abrir navegador http://localhost:8080/
+```
+
 ## Autor
 Autor: Raúl David Flores Serrano
