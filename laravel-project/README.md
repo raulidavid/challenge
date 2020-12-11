@@ -19,5 +19,9 @@ $ composer install
 $ php artisan serve
 ```
 
+```
+$ Abrir navegador http://localhost:8000/
+```
+
 ## Autor
 Autor: Raúl David Flores Serrano
