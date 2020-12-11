@@ -1,9 +1,9 @@
 # Challenge Backend #
 Consumir los endpoints  
 Trae todas las personas  
-https://localhost:8000/api/persons  
+http://localhost:8000/api/persons  
 Trae una persona por su id  
-https://localhost:8000/api/person/2  
+http://localhost:8000/api/person/2  
 
 ## Instalación ##
 Instrucciones:  

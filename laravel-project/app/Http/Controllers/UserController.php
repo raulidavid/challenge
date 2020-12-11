@@ -3,19 +3,40 @@
 namespace App\Http\Controllers;
 
 use App\Models\Table1;
-
+use Illuminate\Support\Collection;
 class UserController extends Controller
 {
+    private $data = array(
+        [
+        "id" => 1,
+        "name" => "Raul",
+        "lastname" => "Flores",
+        ],
+        [
+            "id" => 2,
+            "name" => "Camilo",
+            "lastname" => "Sexto",
+        ],
+        [
+            "id" => 3,
+            "name" => "Lionel",
+            "lastname" => "Messi",
+        ],
+   );
+
     public function getAllPersons()
     {
-        $persons = Table1::all();
-        return response()->json($persons);
+        //$persons = Table1::all();
+        return response()->json($this->data);
     }
 
     public function getPerson($id)
     {
-        $person = Table1::find($id);
-        return response()->json($person);
+        $filtered = collect($this->data)->filter(function ($value) use ($id){
+            return $value['id'] == $id;
+        });
+        //$person = Table1::find($id);
+        return response()->json($filtered);
     }
-   
+
 }
